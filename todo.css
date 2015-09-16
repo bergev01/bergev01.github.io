@@ -1,1 +1,19 @@
+body {
+  font-size: 20pt;
+  background-size: cover;
+  background-image: url("http://27.media.tumblr.com/tumblr_kxvnvq9qLr1qz6z2wo1_500.jpg");
+  }
+  .high {
+    color:red;
+  }
+  .medium {
+    color:orange;
+  }
+  .low {
+    color:#d3d3d3;
+  }
+  .done {
+    text-decoration: line-through;	
+  }
 
+    
