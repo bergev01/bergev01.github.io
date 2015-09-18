@@ -3,24 +3,26 @@ body {
   background-size: cover;
   background-image: url("http://27.media.tumblr.com/tumblr_kxvnvq9qLr1qz6z2wo1_500.jpg");
   }
-section.H ul{
+section.high ul{
 background-color: red }
-section.H li {
+section.high li {
 color: white}
 
-section.M ul{
+section.medium ul{
 background-color: orange }
-section.M li {
+section.medium li {
 color: white}
 
-section.L ul{
+section.low ul{
 background-color: gray }
-section.L li {
+section.low li {
 color: black}
 
-section.D ul{
-background-color: black }
-section.D li {
-color: #00ffff}
+section.done ul{
+background-color: black 
+}
+section.done li {
+color: cyan
+  }
 
     
