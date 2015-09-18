@@ -1,25 +1,28 @@
-section.high ul{
-background-color: red }
-section.high li {
-color: white}
+section.high {
+  background-color: red;
+  color: white;
+}
 
-section.medium ul{
-background-color: orange }
-section.medium li {
-color: white}
+section.medium{
+  background-color: orange;
+  color: white;
+  }
 
-section.low ul{
-background-color: gray }
-section.low li {
-color: black}
+section.low{
+  background-color: gray;
+  color: black;
+  }
 
-section.done ul{
-background-color: black }section.done li {
-color: cyan  }
+section.done{
+  background-color: black;
+  color:cyan;
+}
 
 h2 {
   color: black;
   text-align: center;
 }
-    
 
+section {
+    border: 5px solid black;
+}
