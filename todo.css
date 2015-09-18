@@ -19,10 +19,13 @@ section.done{
 }
 
 h2 {
-  color: black;
+  color: white;
   text-align: center;
 }
 
 section {
     border: 5px solid black;
+    width: 500px;
+    height: 200px;
+    overflow: auto;
 }
