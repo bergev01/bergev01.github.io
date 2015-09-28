@@ -1,0 +1,42 @@
+<style>
+header {
+    background-color: cyan;
+  }
+footer {
+  clear: both;
+  background-color: cyan;
+   }
+  h1 {
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+  body {
+    color: white;
+    
+    background-color: black;
+  }
+  nav li {
+    font-size: 30pt;
+    display: inline;
+  }
+  section#A {
+    font-size: 20pt;
+    float: left;
+    height: 85%;
+    width: 50%;
+    color: white;
+   }
+  section#B {
+    font-size: 20pt;
+    float: right;
+    width: 50%;
+    color: white;
+  }
+
+  table {
+    font-size: 20pt;
+  }
+  
+</style>
