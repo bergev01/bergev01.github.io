@@ -1,10 +1,12 @@
 <style>
-header {
+  header {
     background-color: cyan;
-  }
-footer {
-  clear: both;
-  background-color: cyan;
+    color: black;
+    }
+  footer 
+{    font-size: 20pt;
+    clear: both;
+    background-color: cyan;
    }
   h1 {
     color: white;
@@ -14,11 +16,10 @@ footer {
   }
   body {
     color: white;
-    
-    background-color: black;
+    background-color: #6666CC;
   }
   nav li {
-    font-size: 30pt;
+    font-size: 25pt;
     display: inline;
   }
   section#A {
@@ -36,7 +37,7 @@ footer {
   }
 
   table {
-    font-size: 20pt;
+    font-size: 15pt;
   }
   
 </style>
