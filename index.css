@@ -3,17 +3,23 @@
     background-color: cyan;
     color: black;
     }
-  footer 
-{    font-size: 20pt;
+  footer {    
+    font-size: 20pt;
     clear: both;
     background-color: cyan;
    }
+  li#A {
+    font-size: 15pt;
+  }
+
   h1 {
     color: white;
   }
   h3 {
+    
     color: white;
   }
+
   body {
     color: white;
     background-color: #6666CC;
