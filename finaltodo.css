@@ -1,0 +1,30 @@
+main {
+	width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 200px;
+    background: lightblue;
+}
+
+aside {	
+	width: 60%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.High {
+    color: blue;
+}
+
+.Medium {
+    color: yellow;
+}
+
+.Low {
+    color: lightgray;
+}
+
+.done {
+  text-decoration: line-through;
+}	
