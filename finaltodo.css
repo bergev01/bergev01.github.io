@@ -5,26 +5,25 @@ main {
     min-height: 200px;
     background: lightblue;
 }
-
-aside {	
+aside {
+    list-style-type: none;	
 	width: 60%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-
 }
 .High {
     color: blue;
 }
-
 .Medium {
     color: yellow;
 }
-
 .Low {
-    color: lightgray;
+    color: red;
 }
-
 .done {
   text-decoration: line-through;
 }	
+ul {
+    list-style-type: none;
+}
