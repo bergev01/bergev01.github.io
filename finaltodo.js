@@ -7,20 +7,20 @@ addTask=function() {
   todolist=document.querySelector("#todoul");
   newlist=document.createElement("li");
   newpriority=document.querySelector("#priority").value;
+  taskstuff=document.querySelector("#taskbox").value;
   newlist.className=newpriority;
   box=document.createElement("input");
-  box.type="checkbox"; 
-  box.onclick=doneTask;
-  taskstuff=document.querySelector("#taskbox").value;
+  cbox.type="checkbox"; 
+  cbox.onclick=doneTask;
   addtask=document.createTextNode(taskstuff);
-  newlist.appendChild(box);
+  newlist.appendChild(cbox);
   newlist.appendChild(addtask);
   todolist.appendChild(newlist);
   localSave("todoul");
 }
 
 doneTask=function() {
-  if(this.checked){
+  if (this.checked){
     this.parentNode.classList.add("done");
     localSave("todoul");
   } else {
